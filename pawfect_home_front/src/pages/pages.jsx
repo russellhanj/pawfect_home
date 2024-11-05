@@ -20,6 +20,7 @@ export const PetDetails = () => {
 export const AdoptionForm = () => {
     return (<div>
         <h1>AdoptionForm</h1>
+        <AdoptionForm/>
     </div>);
 }
 export const UserProfile = () => {
