@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "picture": "https://via.placeholder.com/150",
         "name": "Bella",
         "age": 2,
@@ -8,6 +9,7 @@
         "gender": "Female"
     },
     {
+        "id": 2,
         "picture": "https://via.placeholder.com/150",
         "name": "Max",
         "age": 4,
@@ -16,6 +18,7 @@
         "gender": "Male"
     },
     {
+        "id": 3,
         "picture": "https://via.placeholder.com/150",
         "name": "Luna",
         "age": 3,
