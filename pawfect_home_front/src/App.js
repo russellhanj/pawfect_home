@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/homePage';
 import AdoptFormPage from './pages/adoptFormPage';
 import PetListPage from './pages/petListPage';
+import AuthPage from './pages/authPage';
 
 
 //Russel please install: npm install react-bootstrap bootstrap
@@ -21,7 +22,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/adoption-form" element={<AdoptFormPage />} />
               <Route path='/pet-listings' element={<PetListPage/>}/>
-
+              <Route path="/login" element={<AuthPage />} />
               {/* Add other routes as needed */}
           </Routes>
       </div>
