@@ -17,6 +17,8 @@ const Pet = ({pet}) => {
         setIsFavorited(!isFavorited);
     };
 
+    const petImage = require(`../images/${pet.picture}`);
+
     return (
 
     <>
@@ -29,7 +31,7 @@ const Pet = ({pet}) => {
             ></i>
 
 
-        <img src={pet.picture} className="card-img-top rounded-circle mx-auto mt-3" alt={`${pet.name}`} style={{ width: '150px', height: '150px', objectFit: 'cover' }} />
+        <img src={petImage} className="card-img-top rounded-circle mx-auto mt-3" alt={`${pet.name}`} style={{ width: '150px', height: '150px', objectFit: 'cover' }} />
         <div className="card-body">
             <h5 className="card-title text-primary">{pet.name}</h5>
             <p className="card-text text-muted">{pet.breed}</p>

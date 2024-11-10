@@ -11,6 +11,8 @@ const InquiryForm = ({ showModal, handleClose, petId }) => {
         phone: ''
     });
 
+    const [showConfirmation, setShowConfirmation] = useState(false);
+
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
@@ -18,11 +20,17 @@ const InquiryForm = ({ showModal, handleClose, petId }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert(`Thank you, ${formData.name}! Someone from our team will contact you soon.`);
-        handleClose(); 
+        setShowConfirmation(true); // Show confirmation modal
+    };
+
+    const handleConfirmationClose = () => {
+        setShowConfirmation(false);
+        handleClose(); // Close both modals
     };
 
     return (
+
+        <>
         <Modal show={showModal} onHide={handleClose}>
             <Modal.Header closeButton>
                 <Modal.Title>Inquire about {petId}</Modal.Title>
@@ -65,6 +73,26 @@ const InquiryForm = ({ showModal, handleClose, petId }) => {
                 </Form>
             </Modal.Body>
         </Modal>
+
+        {/* Confirmation Message Modal */}
+        <Modal show={showConfirmation} onHide={handleConfirmationClose}>
+        <Modal.Header closeButton>
+            <Modal.Title>Thank You!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <p>Thank you, {formData.name}! Someone from our team will contact you soon.</p>
+        </Modal.Body>
+        <Modal.Footer>
+            <Button variant="primary" onClick={handleConfirmationClose}>
+                Close
+            </Button>
+        </Modal.Footer>
+    </Modal>
+
+
+    </>
+
+
     );
 }
  
