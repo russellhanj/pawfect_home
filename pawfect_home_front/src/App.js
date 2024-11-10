@@ -8,6 +8,9 @@ import AdoptFormPage from './pages/adoptFormPage';
 import PetListPage from './pages/petListPage';
 
 
+//Russel please install: npm install react-bootstrap bootstrap
+//Russel please install: this npm install @fortawesome/fontawesome-free
+//please also instal:  npm install axios
 
 
 function App() {

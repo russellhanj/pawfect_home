@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import InquiryForm from './inquireForm';
 
-//Russel please install this npm install @fortawesome/fontawesome-free
+
 
 const Pet = ({pet}) => {
 

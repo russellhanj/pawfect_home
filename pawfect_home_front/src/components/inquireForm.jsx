@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { useState } from 'react';
 
-//Russel please install npm install react-bootstrap bootstrap
+
 
 const InquiryForm = ({ showModal, handleClose, petId }) => {
     const [formData, setFormData] = useState({
