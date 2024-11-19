@@ -47,7 +47,7 @@ const SearchBar = () => {
                 value={searchParams.type}
                 onChange={handleChange}
             >
-                <option value="">All</option>
+                <option value="">Pet Type</option>
                 <option value="dog">Dog</option>
                 <option value="cat">Cat</option>
             </select>

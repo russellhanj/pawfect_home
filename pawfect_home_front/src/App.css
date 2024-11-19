@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+select {
+  width: 30%; /* Adjust this value as needed */
+}
