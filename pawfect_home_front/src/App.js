@@ -7,6 +7,8 @@ import HomePage from './pages/homePage';
 import AdoptFormPage from './pages/adoptFormPage';
 import PetListPage from './pages/petListPage';
 import AuthPage from './pages/authPage';
+import AdopterDashboard from './pages/adopterDashboard';
+
 
 
 //Russel please install: npm install react-bootstrap bootstrap
@@ -23,6 +25,7 @@ function App() {
               <Route path="/adoption-form" element={<AdoptFormPage />} />
               <Route path='/pet-listings' element={<PetListPage/>}/>
               <Route path="/login" element={<AuthPage />} />
+              <Route path="/user/dashboard" element={<AdopterDashboard/>} />
               {/* Add other routes as needed */}
           </Routes>
       </div>
