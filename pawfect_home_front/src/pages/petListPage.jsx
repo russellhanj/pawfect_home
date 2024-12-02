@@ -3,12 +3,11 @@ import Header from '../components/header';
 import AboutUs from '../components/aboutUs';
 import Footer from '../components/footer';
 import PetList from '../components/petList';
-import pets from '../services/pets.json'
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 
-const PetListPage = () => {
+const PetListPage = ({pets}) => {
 
 
     const [filteredPets, setFilteredPets] = useState([]);

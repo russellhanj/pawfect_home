@@ -27,6 +27,9 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/user/dashboard">Adopter Dashboard</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className='nav-link' to="/admin/dashboard">Admin Dashboard</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

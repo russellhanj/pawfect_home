@@ -2,14 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/header';
 import AboutUs from '../components/aboutUs';
 import Footer from '../components/footer';
-import petsData from '../services/pets.json'; // Import the JSON data
 
-const AdopterDashboard = () => {
+
+const AdopterDashboard = ({petsData}) => {
   // State for saved pets
   const [savedPets, setSavedPets] = useState([]);
 
   useEffect(() => {
-    // Mock fetching data from JSON
+    // Mock fetching data from Mongo
     setSavedPets(petsData); // Load the pets data
   }, []);
 

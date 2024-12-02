@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "petId": 1,
         "picture": "labrador1.jpg",
         "name": "Bella",
         "age": 2,
@@ -10,7 +10,7 @@
         "type": "Dog"
     },
     {
-        "id": 2,
+        "petId": 2,
         "picture": "siamese1.jpg",
         "name": "Milo",
         "age": 3,
@@ -20,7 +20,7 @@
         "type": "Cat"
     },
     {
-        "id": 3,
+        "petId": 3,
         "picture": "golden1.jpg",
         "name": "Max",
         "age": 4,
@@ -30,7 +30,7 @@
         "type": "Dog"
     },
     {
-        "id": 4,
+        "petId": 4,
         "picture": "mainecoon1.jpg",
         "name": "Luna",
         "age": 5,
@@ -40,7 +40,7 @@
         "type": "Cat"
     },
     {
-        "id": 5,
+        "petId": 5,
         "picture": "bulldog1.jpg",
         "name": "Rocky",
         "age": 5,
@@ -50,7 +50,7 @@
         "type": "Dog"
     },
     {
-        "id": 6,
+        "petId": 6,
         "picture": "persian1.jpg",
         "name": "Chloe",
         "age": 4,
@@ -60,7 +60,7 @@
         "type": "Cat"
     },
     {
-        "id": 7,
+        "petId": 7,
         "picture": "poodle1.jpg",
         "name": "Charlie",
         "age": 3,
@@ -70,7 +70,7 @@
         "type": "Dog"
     },
     {
-        "id": 8,
+        "petId": 8,
         "picture": "ragdoll1.jpg",
         "name": "Bella",
         "age": 2,
@@ -80,7 +80,7 @@
         "type": "Cat"
     },
     {
-        "id": 9,
+        "petId": 9,
         "picture": "husky1.jpg",
         "name": "Zeus",
         "age": 6,
@@ -90,7 +90,7 @@
         "type": "Dog"
     },
     {
-        "id": 10,
+        "petId": 10,
         "picture": "bengal1.jpg",
         "name": "Simba",
         "age": 1,
@@ -100,7 +100,7 @@
         "type": "Cat"
     },
     {
-        "id": 11,
+        "petId": 11,
         "picture": "dachshund1.jpg",
         "name": "Lola",
         "age": 3,
@@ -110,7 +110,7 @@
         "type": "Dog"
     },
     {
-        "id": 12,
+        "petId": 12,
         "picture": "britishshorthair1.jpg",
         "name": "Leo",
         "age": 2,
@@ -120,7 +120,7 @@
         "type": "Cat"
     },
     {
-        "id": 13,
+        "petId": 13,
         "picture": "rottweiler1.jpg",
         "name": "Bruno",
         "age": 5,
@@ -130,7 +130,7 @@
         "type": "Dog"
     },
     {
-        "id": 14,
+        "petId": 14,
         "picture": "sphynx1.jpg",
         "name": "Molly",
         "age": 3,
@@ -140,7 +140,7 @@
         "type": "Cat"
     },
     {
-        "id": 15,
+        "petId": 15,
         "picture": "boxer1.jpg",
         "name": "Buster",
         "age": 4,
@@ -150,7 +150,7 @@
         "type": "Dog"
     },
     {
-        "id": 16,
+        "petId": 16,
         "picture": "birman1.jpg",
         "name": "Whiskers",
         "age": 2,
@@ -160,7 +160,7 @@
         "type": "Cat"
     },
     {
-        "id": 17,
+        "petId": 17,
         "picture": "beagle1.jpg",
         "name": "Daisy",
         "age": 2,
@@ -170,7 +170,7 @@
         "type": "Dog"
     },
     {
-        "id": 18,
+        "petId": 18,
         "picture": "scottishfold1.jpg",
         "name": "Sophie",
         "age": 5,
@@ -180,7 +180,7 @@
         "type": "Cat"
     },
     {
-        "id": 19,
+        "petId": 19,
         "picture": "shih_tzu1.jpg",
         "name": "Mimi",
         "age": 5,
@@ -190,7 +190,7 @@
         "type": "Dog"
     },
     {
-        "id": 20,
+        "petId": 20,
         "picture": "norwegianforest1.jpg",
         "name": "Shadow",
         "age": 4,
@@ -200,7 +200,7 @@
         "type": "Cat"
     },
     {
-        "id": 21,
+        "petId": 21,
         "picture": "corgi1.jpg",
         "name": "Winston",
         "age": 2,
@@ -210,7 +210,7 @@
         "type": "Dog"
     },
     {
-        "id": 22,
+        "petId": 22,
         "picture": "chartreux1.jpg",
         "name": "Olivia",
         "age": 3,
@@ -220,7 +220,7 @@
         "type": "Cat"
     },
     {
-        "id": 23,
+        "petId": 23,
         "picture": "malamute1.jpg",
         "name": "Kodiak",
         "age": 6,
@@ -230,7 +230,7 @@
         "type": "Dog"
     },
     {
-        "id": 24,
+        "petId": 24,
         "picture": "ragdoll2.jpg",
         "name": "Bella",
         "age": 1,
@@ -240,7 +240,7 @@
         "type": "Cat"
     },
     {
-        "id": 25,
+        "petId": 25,
         "picture": "akita1.jpg",
         "name": "Hachi",
         "age": 5,
@@ -250,7 +250,7 @@
         "type": "Dog"
     },
     {
-        "id": 26,
+        "petId": 26,
         "picture": "siamese2.jpg",
         "name": "Coco",
         "age": 3,
@@ -260,7 +260,7 @@
         "type": "Cat"
     },
     {
-        "id": 27,
+        "petId": 27,
         "picture": "dalmatian1.jpg",
         "name": "Spot",
         "age": 4,
@@ -270,7 +270,7 @@
         "type": "Dog"
     },
     {
-        "id": 28,
+        "petId": 28,
         "picture": "persian2.jpg",
         "name": "Princess",
         "age": 2,
@@ -280,7 +280,7 @@
         "type": "Cat"
     },
     {
-        "id": 29,
+        "petId": 29,
         "picture": "golden2.jpg",
         "name": "Max",
         "age": 4,
@@ -290,7 +290,7 @@
         "type":"Dog"
     },
     {
-        "id": 30,
+        "petId": 30,
         "picture": "german1.jpg",
         "name": "Milo",
         "age": 3,
