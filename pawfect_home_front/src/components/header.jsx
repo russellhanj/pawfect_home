@@ -22,14 +22,15 @@ const Header = () => {
                                 <Link className="nav-link" to="/adoption-form">Adopt a Pet</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className='nav-link' to="/admin/dashboard">Admin Dashboard</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/login">Login/Signup</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/user/dashboard">Adopter Dashboard</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className='nav-link' to="/admin/dashboard">Admin Dashboard</Link>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
