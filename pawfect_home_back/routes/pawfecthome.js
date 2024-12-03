@@ -55,10 +55,11 @@ router.route("/add").post((req, res)=>{
   const breed = req.body.breed;
   const gender = req.body.gender;
   const type = req.body.type;
+  const picture = req.body.picture;
 
   const newPet = new Pet({
     petId,
-    //picture, 
+    picture, 
     name,
     age, 
     location,
@@ -70,9 +71,6 @@ router.route("/add").post((req, res)=>{
   newPet.save()
   .then(()=> res.json("Pet has been added!"))
   .catch((error) => res.status(400).json({error: 'Something went wrong. Please try again'}))
-
-
-
 
 })
 

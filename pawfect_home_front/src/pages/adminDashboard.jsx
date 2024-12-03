@@ -22,7 +22,7 @@ const AdminDashboard = ({pets}) => {
     //Add pet
     const handleAddPet = () => {
         if (newPet.name && newPet.age && newPet.breed && newPet.gender && newPet.location && newPet.type) {
-          const newPetEntry = { ...newPet, petId: Date.now() };
+          const newPetEntry = { ...newPet, petId: Date.now(), picture: "pet_placeholder.jpg" };
           setPets([...petsData, newPetEntry]);
           setNewPet({ picture: "", name: "", age: "", location: "", breed: "", gender: "", type: "" });
 
