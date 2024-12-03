@@ -67,6 +67,12 @@ const AdminDashboard = ({pets}) => {
         axios.put(`http://localhost:5001/api/edit/${selectedPet.petId}`, updatedPet)
         .then(response=>{
           alert(`${selectedPet.name} profile has been updated`);
+          setPets((prevPets) =>
+            prevPets.map((pet) =>
+              pet.petId === selectedPet.petId ? { ...pet, ...updatedPet } : pet
+            )
+          );
+
         })
         .catch(err =>{
           console.log(`something went wrong: ${err}`);
@@ -296,23 +302,30 @@ const AdminDashboard = ({pets}) => {
                 <option value="Seattle, WA">Seattle, WA</option>
               </Form.Select>
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formGender">
+            <Form.Group className="mb-3" controlId="formLocation">
               <Form.Label>Gender</Form.Label>
-              <Form.Control
-                type="text"
+              <Form.Select
                 name="gender"
                 value={updatedPet.gender || ''}
                 onChange={handleInputChange}
-              />
+              >
+                <option value="">Select Gender</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </Form.Select>
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formType">
-              <Form.Label>Type</Form.Label>
-              <Form.Control
-                type="text"
+
+            <Form.Group className="mb-3" controlId="formLocation">
+              <Form.Label>Gender</Form.Label>
+              <Form.Select
                 name="type"
                 value={updatedPet.type || ''}
                 onChange={handleInputChange}
-              />
+              >
+                <option value="">Select Type</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+              </Form.Select>
             </Form.Group>
           </Form>
         </Modal.Body>
