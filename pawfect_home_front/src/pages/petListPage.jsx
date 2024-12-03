@@ -30,7 +30,7 @@ const PetListPage = ({pets}) => {
     }, [location]);
 
     return (
-    <div>
+    <div className="container mt-4">
         <Header/>  
         <div className="container mt-4">
             <h1 className="text-center mb-4">Our Lovely Pets</h1>

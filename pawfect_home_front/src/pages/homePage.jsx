@@ -8,9 +8,9 @@ import SearchBar from '../components/searchBar';
 
 const HomePage = () => {
     return (
-        <div className='homepage'>
+        <div className='container mt-4'>
             <Header />
-            <div>
+            <div className='container mt-4'>
             <h1>All these pals have been adopted this year! </h1>
             <DogSlideshow />
             <h1>Become part of the change and look for your perfect furred friend!

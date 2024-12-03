@@ -10,10 +10,12 @@ const AdoptFormPage = () => {
   return (
     <div className="container mt-4">
         <Header />
-        <br />
-        <h2>Adopt a Pet</h2>
-        <AdoptForm/>
-        <br />
+        
+        <div className='container mt-4'>
+          <h2>Adopt a Pet</h2>
+          <AdoptForm/>
+        </div>
+        
         <AboutUs />
         <Footer />
         

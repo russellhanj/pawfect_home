@@ -75,10 +75,10 @@ const AdminDashboard = ({pets}) => {
       };
 
     return (
-    <div className="container-fluid">
+    <div className='container mt-4'>
       <Header />
 
-      <div className="container my-4">
+      <div className='container mt-4'>
         <h1 className="text-center mb-4">Admin Dashboard</h1>
 
         <div className="row d-flex">

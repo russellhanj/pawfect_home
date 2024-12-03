@@ -22,7 +22,7 @@ const AdopterDashboard = ({petsData}) => {
   };
 
   return (
-    <div>
+    <div className="container mt-4">
       <Header />
       <div className="container mt-4">
         
