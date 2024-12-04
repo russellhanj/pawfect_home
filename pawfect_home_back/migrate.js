@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import data from './data.json' assert { type: 'json' };  // Assuming pets data is still in this file
-import userData from './users.json' assert { type: 'json' };  // New users data file
+import data from './data.json' assert { type: 'json' };
+import userData from './users.json' assert { type: 'json' };  // Add the 'assert { type: 'json' }' here as well
 import { Pet } from './models/pets.js';
 import { User } from './models/users.js';  // Import the User model
 import 'dotenv/config';
