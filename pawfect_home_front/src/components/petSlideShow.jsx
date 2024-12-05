@@ -1,5 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import Lottie from 'react-lottie';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+import animationData from '../animationData.json'
 
 
 const DogSlideshow = () => {
@@ -47,6 +50,16 @@ const DogSlideshow = () => {
         }
     }, [dogBreeds]);
 
+
+    const loadingAnimationOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice',
+        },
+    };
+
    
     return (
         <div style={{ position: 'relative', width: '100%', height: '600px', overflow: 'hidden', borderRadius: '40px' 
@@ -85,7 +98,20 @@ const DogSlideshow = () => {
                 </>
 
             ) : (
-                <p>Loading...</p>
+                <div style={{ textAlign: 'center' }}>
+                    {/* Animated loading spinner */}
+                    <Lottie options={loadingAnimationOptions} height={150} width={150} />
+                    <p
+                        style={{
+                            marginTop: '10px',
+                            fontSize: '1.2rem',
+                            color: '#555',
+                            fontFamily: 'Comic Sans MS, cursive',
+                        }}
+                    >
+                        Fetching adorable pets for you...
+                    </p>
+                </div>
             )}
         </div>
 
